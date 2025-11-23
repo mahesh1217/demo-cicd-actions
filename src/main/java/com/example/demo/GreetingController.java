@@ -19,6 +19,11 @@ public class GreetingController {
 		return sum;
 	}
 
+    @GetMapping("/learn")
+    public String leran(){
+        return "Learning to ci cd work flow";
+    }
+
 //    echo "# demo-cicd-actions" >> README.md
 //    git init
 //    git add README.md
